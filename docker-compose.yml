@@ -26,7 +26,7 @@ services:
     # uncomment when running on Windows and add additional ports according to your needs
     ports:
       - "18080:8080"
-      - "2302-2305:2302-2305/udp"
+    #  - "2302-2305:2302-2305/udp"
       - "27016:27016/udp"
     depends_on:
       - db
